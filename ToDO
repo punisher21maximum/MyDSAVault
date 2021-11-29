@@ -1,0 +1,33 @@
+1. Traversal done Both
+2. Summation
+> 6, 7
+left 10_my
+
+---------------------------------------------------------
+Trace 13, solve from 13_2
+
+# Solve Question
+- Read prob statement
+- Understand prob on White Board
+- Think of solution
+- Dry run on White Board 
+- Pseudocode on White Board 
+- Comment Approach in Code in function ''' '''
+    def solution(self):
+        '''
+        Key idea from Prob Statement
+        Approach to solve, step wise
+        '''
+- Code  
+
+# Revision
+- Understand Problem from fileName 
+    - If required, read from func Comment "Key idea from Prob Statement"
+    - If required, read from GFG 
+- Think of solution in mind 
+    - If required, read func Comment "Approach"
+    - If required, rough Pseudocode on White Board 
+    - If required, dry run on White Board
+
+If important question, list below:
+Traversal 17, 31
