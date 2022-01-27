@@ -1,6 +1,6 @@
 def levenshteinDistance(str1, str2):
     '''
-    return min number of edit operations on str1 to be done
+    Question: return min number of edit operations on str1 to be done
     to obtain str2. Operations - insert, substitute, delete.
     '''
 

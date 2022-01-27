@@ -3,7 +3,6 @@
 class MinHeap:
 
     def __init__(self):
-
         self.heap = []
 
     def buildHeap(self, array):

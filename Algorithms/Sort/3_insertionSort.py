@@ -1,14 +1,17 @@
 def insertionSort(array):
-    '''
+    """
     Approach:
+    Time Complexity: O(n^2)
+    Auxiliary Space: O(1)
+
     Sort list in inc order.
     We traverse the list, if we find ele GT prev ele,
     we move forward, but if ele if LT prev ele.
     We traverse from currIdx towards left, while the
     prev ele is LT smallerEle we found and idx >= 1
-    and shift the eles to right. Than place ele 
+    and shift the eles to right. Than place ele
     at the idx.
-    '''
+    """
     for i in range(1, len(array)):
         if array[i - 1] > array[i]:
             idx = i

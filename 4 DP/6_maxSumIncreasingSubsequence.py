@@ -1,7 +1,7 @@
 def getSequence(array, sequences, idx):
 
     sequence = []
-    while idx:
+    while idx is not None:
         sequence.append(array[idx])
         idx = sequences[idx]
     return sequence[::-1]

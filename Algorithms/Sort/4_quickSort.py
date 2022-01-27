@@ -13,32 +13,33 @@ def partition(array, leftIdx, rightIdx):
 
 
 def quickSort(array, leftIdx, rightIdx):
-    '''
+    """
     Space O(1)
 
     Worst Case: Time O(N^2)
-        When the partition process always picks greatest 
+        When the partition process always picks greatest
         or smallest element as pivot.
 
-        Above pivot is last ele, worst case occurs when, 
+        Above pivot is last ele, worst case occurs when,
         already sorted in inc or dec order.
 
     Best Case: Time O(logN)
-        Partition process always picks the middle element 
+        Partition process always picks the middle element
         as pivot.
 
     Average Case: Time O(logN)
 
-    Is QuickSort stable? 
-        The default implementation is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter. 
+    Is QuickSort stable?
+        The default implementation is not stable. However any sorting algorithm can be made stable by considering indexes as comparison parameter.
 
-    Is QuickSort In-place? 
-        As per the broad definition of in-place algorithm it qualifies as an in-place sorting algorithm as it uses extra space only for storing recursive function calls but not for manipulating the input. 
-    '''
+    Is QuickSort In-place?
+        As per the broad definition of in-place algorithm it qualifies as an in-place sorting algorithm as it uses extra space only for storing recursive function calls but not for manipulating the input.
+    """
     if leftIdx >= rightIdx:
         return
 
     partitionIndex = partition(array, leftIdx, rightIdx)
+    print(leftIdx, rightIdx, partitionIndex)
 
     quickSort(array, leftIdx, partitionIndex - 1)
     quickSort(array, partitionIndex + 1, rightIdx)
